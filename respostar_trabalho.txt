@@ -1,0 +1,45 @@
+# Cleiton Piccini
+
+1) r = 10
+
+2) 	f(x) = (x / (e^(10*x))) - (1 / (e^5)) => (expressão simplificada)
+	'f(x) = (e^(-10*x)) * (1 - 10 * x)
+
+	algoritmo = método de Newton
+	raiz = 0.007244169777720879
+	chute inicial = 1.0
+	iterações = 166
+	
+
+3) 	resultado = 1.13385279947966
+	utilizando = biblioteca python3 "print ((10*49.37)^(1/49.37))"
+
+4)	'f(x) = -50 * (sin(50 * x + 10) + cos(50 * x - 10))
+
+	algoritmo = método de Newton
+	chute inicial 0.0 resultado = 0.01570796326794897 iterações = 5
+	chute inicial 0.5 resultado = 0.5183627878423158, iterações = 5
+	chute inicial -0.5 resultado = -0.48694686130641796, iterações = 4
+
+5) / 6)
+	a) algoritmo de Gauss-Seidel :
+		- convergiu = Sim
+		- iterações = 12
+		- resultados =	[ 0.19230769 -1.80769231  0.42307692]
+	b) algoritmo de Gauss-Seidel :
+		- convergiu = Sim
+		- iterações = 11
+		- resultados = [0.09032258 0.39354839 0.15483871]
+	c) algoritmo de Gauss-Seidel :
+		- convergiu = Não passou no teste de sassenfeld
+		- iterações = 0
+		- resultados = Null				
+
+7) 	Matriz de aproximação:
+		[ 1.0,  1.0, -2.0]
+		[-0.5, -1.5,  1.5]
+		[-0.5, -0.5,  1.5]		
+	Inversa aproximada		Diagonal rI 			Resultado
+	[ 1.0,  1.0, -2.0]		[ 10.0, 0.0, 0.0]		[-35]
+	[-0.5, -1.5,  1.5]  x 	[ 0.0,-15.0, 0.0]   = 	[ 40]
+	[-0.5, -0.5,  1.5]		[ 0.0, 0.0, 15.0]		[ 25]
